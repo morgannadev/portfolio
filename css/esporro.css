@@ -1,0 +1,31 @@
+.social {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.titulo {
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.subtitulo {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    justify-content: center;
+}
+
+.homeperfil {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
