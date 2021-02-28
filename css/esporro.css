@@ -3,29 +3,43 @@
     margin: 0 10px;
 }
 
-.titulo {
-    margin-bottom: 0;
+.nome {
     font-size: 40px;
 }
 
-.subtitulo {
-    margin-top: 0;
+.profissao {
     font-size: 25px;
 }
 
-.container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 960px;
+.home {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
+    background-color: #0D1B2A;
+    min-height: 100vh;
+    margin: 0 auto;
 }
 
-.homeperfil {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+.principal {
+    background-color: #FF6978;
+    min-height: 100vh;
 }
 
 .icon {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.conteudo {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.subtitulo {
+    font-weight: bold;
 }
